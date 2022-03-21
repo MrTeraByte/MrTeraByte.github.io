@@ -1,0 +1,42 @@
+body{
+	background: radial-gradient(circle, rgba(255,255,255,0.011217948717948678) 38%, rgba(0,0,0,1) 97%);
+	background: -webkit-radial-gradient(circle, rgba(255,255,255,0.011217948717948678) 38%, rgba(0,0,0,1) 97%);
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+  font-family: quanslim;
+  src: url(fonts/QuanSlim-Bold.ttf);
+}
+#main{
+
+}
+#intro{
+	background: black;
+	position:fixed;
+	top:0;
+	bottom:0;
+	right:0;
+	left:0;
+}
+#intro p{
+	color: white;
+	text-align: center;
+	font-size: 300%;
+	font-family:quanslim;
+	font-weight: 10%;
+	position:absolute;
+	top: 40%;
+	z-index: 1;
+}
+
+#note{
+	color: black;
+	text-align:center;
+	letter-spacing: 10px;
+	display:none;
+	position:absolute;
+	top:40%;
+	left: 20%;
+	z-index: 1;
+}
