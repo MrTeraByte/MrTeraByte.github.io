@@ -1,12 +1,13 @@
+@font-face {
+  font-family: quanslim;
+  src: url(QuanSlim-Bold.ttf);
+}
 body{
 	background: radial-gradient(circle, rgba(255,255,255,0.011217948717948678) 38%, rgba(0,0,0,1) 97%);
 	background: -webkit-radial-gradient(circle, rgba(255,255,255,0.011217948717948678) 38%, rgba(0,0,0,1) 97%);
 	padding: 0;
 	margin: 0;
-}
-@font-face {
-  font-family: quanslim;
-  src: url(QuanSlim-Bold.ttf);
+font-family: quanslim;
 }
 #main{
 
