@@ -36,7 +36,7 @@ body{
 	color: black;
 	letter-spacing: 10px;
 }
-@media only screens and (min-width: 640px){
+@media only screens and (max-width: 640px){
 	intro{
 		font-size: 500%;
                 text-shadow: 5px 5px cyan;
