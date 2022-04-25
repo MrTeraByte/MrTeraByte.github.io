@@ -39,5 +39,6 @@ body{
 @media only screens and (min-width: 640px){
 	intro{
 		font-size: 500%;
+                text-shadow: 1px 1px white;
 	}
 }
