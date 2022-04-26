@@ -7,5 +7,10 @@ $(document).ready( () => {
     		$("#note").fadeIn();
     			$("#intro").remove();
     	});
-    })
+    });
+
+   $(document).on("click",() => {
+    	$("#note").toggleClass("note");
+   });
+
 });
