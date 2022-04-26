@@ -29,14 +29,16 @@ body{
 
 #note{
 	display:none;
-        animation-name: shake;
-        animation-duration: 0.8s;
 }
 #note h1{
 	border: 1px solid black;
 	background: cyan;
 	color: black;
 	letter-spacing: 10px;
+}
+.note{
+        animation-name: shake;
+        animation-duration: 0.8s;
 }
 @keyframes shake {
     0%, 100% {
